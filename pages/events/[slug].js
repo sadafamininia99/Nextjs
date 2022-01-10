@@ -9,6 +9,7 @@ export default function EventPage() {
       <h1>sluggggg</h1>
       <h1>{router.query.slug}</h1>
       <button onClick={() => router.push("/")}>click </button>
+      
     </div>
   );
 }
