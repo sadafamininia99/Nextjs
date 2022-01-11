@@ -2,16 +2,12 @@
 import Layout from "../components/Layout";
 
 export default function AboutPage() {
-  return ( 
-    //page title is chenaged 
-    <Layout title='about DJ events  '>
+  return (
+    //page title is chenaged
+    <Layout title="About  DJ eventssssssssssssss  ">
       <h1>about</h1>
-      <p>
-        this is me saddaf amininia hi im good
-      </p>
-      <p >version :1.0.0</p>
-      {/* <Link href='/'>home</Link> */}
-      
+      <p>this is me saddaf amininia hi im good</p>
+      <p>Version: 1.0.0</p>
     </Layout>
   );
 }
